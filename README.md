@@ -8,7 +8,6 @@
 ***Součástí repozitáře je:***
 - `README.md` – popis projektu, dokumentace
 - `screenshots/` – složka se screenshoty
-- `certificate.pdf` – certifikát Linux Administrator
 
 ---
 
@@ -53,9 +52,3 @@
 
 - Screenshot: [Konfigurace Apache pro /srv a port 8081](screenshots/foto6.png)  
 - Screenshot: [Běžící webová stránka](screenshots/foto7.png)
-
----
-
-***Certifikát***
-
-- Certifikát si můžeš prohlédnout zde: [Otevřít certifikát (PDF)](certificate.pdf)
