@@ -27,7 +27,6 @@
 Screenshot: [Běžící VM + ping](screenshots/foto1.png)  
 Screenshot: [IP adresa VM + ping na hosta](screenshots/foto2.png)
 
----
 
 Úkol 2 – SSH + uživatel sysadmin
 - Vytvořen uživatel 'sysadmin' 
@@ -38,7 +37,6 @@ Screenshot: [Úspěšné SSH přihlášení pomocí klíče](screenshots/foto3.p
 Screenshot: [Zakázaný root login v sshd_config](screenshots/foto4.png)  
 Screenshot: [Neúspěšný pokus o login heslem](screenshots/foto5.png)
 
----
 
 Úkol 3 + 4 – Apache + PHP + Web
 - Apache nakonfigurován na portu 8081 
