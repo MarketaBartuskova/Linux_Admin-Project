@@ -1,11 +1,11 @@
-***Projekt pro Linux administraci – Nastavení částečného LAMP stacku na vlastní VM***
+# Projekt pro Linux administraci – Nastavení částečného LAMP stacku na vlastní VM
 
  Jedná se o závěrečný projekt, na jejímž základě mi byl udělen certifikát Junior Linux Administrator od ENGETO.
  Cílem bylo vytvořit a nakonfigurovat částečný LAMP stack na vlastním virtuálním stroji.
 
 ---
 
-Zadání:
+***Zadání:***
 1. Vytvoření virtuálního stroje a nastavení privátní sítě.
 2. Vytvoření uživatele 'sysadmin', nastavení SSH s RSA klíči a zakázání root loginu.
 3. Instalace Apache a PHP.
@@ -13,12 +13,12 @@ Zadání:
 
 ---
 
-Použité technologie:
+***Použité technologie:***
 - VirtualBox + Ubuntu Server 22.04 LTS
 
 ---
 
-Splněné úkoly:
+***Splněné úkoly:***
 Úkol 1 – Virtuální stroj
 - Vytvořen virtuální stroj ve VirtualBoxu a instalace Ubuntu 
 - Síť nastavena na privátní IP (192.168.1.214)
