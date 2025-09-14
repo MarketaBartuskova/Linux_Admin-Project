@@ -1,5 +1,7 @@
 # Projekt pro Linux administraci – Nastavení částečného LAMP stacku na vlastní VM
 
+![Linux Administrator Certified](https://img.shields.io/badge/Linux%20Administrator-Certified-blue)
+
  Jedná se o závěrečný projekt, na jejímž základě mi byl udělen certifikát Junior Linux Administrator od ENGETO.
  Cílem bylo vytvořit a nakonfigurovat částečný LAMP stack na vlastním virtuálním stroji.
 
