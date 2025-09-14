@@ -43,7 +43,7 @@ Screenshot: [Neúspěšný pokus o login heslem](screenshots/ssh_password_login_
 - Apache nakonfigurován na portu 8081 
 - DocumentRoot nastaven na '/srv'  
 - PHP funkční  
-- Webová stránka dostupná na 'http://192.168.1.214:8081'  
+- Webová stránka dostupná na '192.168.1.214:8081'  
 
 Screenshot: [Konfigurace Apache pro /srv a port 8081](screenshots/apache_config_srv_8081.png)  
 Screenshot: [Běžící webová stránka](screenshots/webpage_running_8081.png)
