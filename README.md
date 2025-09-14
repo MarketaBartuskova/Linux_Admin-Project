@@ -16,6 +16,7 @@ Splněné úkoly:
 Úkol 1 – Virtuální stroj
 - Vytvořen virtuální stroj ve VirtualBoxu a instalace Ubuntu 
 - Síť nastavena na privátní IP (192.168.1.214)
+
 Screenshot: [Běžící VM + ping](screenshots/vm_running_ping.png)  
 Screenshot: [IP adresa VM + ping na hosta](screenshots/vm_ipconfig_ping_host.png)
 
