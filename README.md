@@ -19,6 +19,7 @@
 ---
 
 ***Splněné úkoly:***
+
 Úkol 1 – Virtuální stroj
 - Vytvořen virtuální stroj ve VirtualBoxu a instalace Ubuntu 
 - Síť nastavena na privátní IP (192.168.1.214)
