@@ -15,10 +15,10 @@ Použité technologie:
 Splněné úkoly:
 Úkol 1 – Virtuální stroj
 - Vytvořen virtuální stroj ve VirtualBoxu a instalace Ubuntu 
-- Síť nastavena na privátní IP (192.168.1.214)  
-
+- Síť nastavena na privátní IP (192.168.1.214)
 Screenshot: [Běžící VM + ping](screenshots/vm_running_ping.png)  
 Screenshot: [IP adresa VM + ping na hosta](screenshots/vm_ipconfig_ping_host.png)
+
 ---
 
 Úkol 2 – SSH + uživatel sysadmin
@@ -26,8 +26,9 @@ Screenshot: [IP adresa VM + ping na hosta](screenshots/vm_ipconfig_ping_host.png
 - Zakázán root login přes SSH
 - Přihlášení funguje pouze pomocí RSA klíče  
 
-Screenshot: [Úspěšné SSH přihlášení + sudo](screenshots/task2_ssh_key.png)  
-Screenshot: [Zakázaný root login v sshd_config](screenshots/task2_root_disabled.png)
+Screenshot: [Úspěšné SSH přihlášení pomocí klíče](screenshots/ssh_login_sysadmin_key.png)  
+Screenshot: [Zakázaný root login v sshd_config](screenshots/sshd_config_root_disabled.png)  
+Screenshot: [Neúspěšný pokus o login heslem](screenshots/ssh_password_login_failed.png)
 
 ---
 
@@ -37,5 +38,5 @@ Screenshot: [Zakázaný root login v sshd_config](screenshots/task2_root_disable
 - PHP funkční  
 - Webová stránka dostupná na 'http://192.168.1.214:8081'  
 
-Screenshot: [Apache config /srv](screenshots/task3_apache_conf.png)  
-Screenshot: [Běžící webová stránka](screenshots/task4_webpage.png)
+Screenshot: [Konfigurace Apache pro /srv a port 8081](screenshots/apache_config_srv_8081.png)  
+Screenshot: [Běžící webová stránka](screenshots/webpage_running_8081.png)
