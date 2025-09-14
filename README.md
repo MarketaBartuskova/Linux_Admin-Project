@@ -1,26 +1,41 @@
-Ukázkový projekt pro Linux administraci – konfigurace částečného LAMP stacku
+Projekt pro Linux administraci – konfigurace částečného LAMP stacku
 
 Jedná se o závěrečný projekt, na jejímž základě mi byl udělen certifikát Junior Linux Administrator od ENGETO.
 Cílem bylo vytvořit a nakonfigurovat částečný LAMP stack na vlastním virtuálním stroji.
 
 Zadání:
-- Vytvoření vlastní VM a nastavení sítě
-- Vytvoření uživatele 'sysadmin' s přístupem pouze přes 'SSH klíč' a se sudo právy
-- Instalace Apache a PHP
-- Nasazení ukázkové PHP stránky na portu 8081
+1. Vytvoření virtuálního stroje a nastavení privátní sítě.
+2. Vytvoření uživatele 'sysadmin', nastavení SSH s RSA klíči a zakázání root loginu.
+3. Instalace Apache a PHP.
+4. Nasazení webové aplikace na portu 8081 s obsahem ve složce '/srv'.
 
 Použité technologie:
 - VirtualBox + Ubuntu Server 22.04 LTS
 
 Splněné úkoly:
-1. ✅ Virtuální stroj s privátní IP, přístupný z hosta  
-2. ✅ SSH konfigurace s RSA key-root login zakázán  
-3. ✅ Instalace Apache + PHP  
-4. ✅ Zobrazení webová stránky
+Úkol 1 – Virtuální stroj
+- Vytvořen virtuální stroj ve VirtualBoxu a instalace Ubuntu 
+- Síť nastavena na privátní IP (192.168.1.214)  
 
-screenshoty: 
-Najdete ve složce [`screenshots/`](./screenshots):
-- VM běžící ve virtualBoxu + ping
-- SSH přihlášení s klíčem (a selhání s heslem)
-- Konfigurace `sshd_config` a `httpd.conf`
-- Funkční stránka v prohlížeči
+Screenshot: [Screenshot VM + ping](screenshots/task1_vm_ping.png)
+
+---
+
+Úkol 2 – SSH + uživatel sysadmin
+- Vytvořen uživatel 'sysadmin' 
+- Zakázán root login přes SSH
+- Přihlášení funguje pouze pomocí RSA klíče  
+
+Screenshot: [Úspěšné SSH přihlášení + sudo](screenshots/task2_ssh_key.png)  
+Screenshot: [Zakázaný root login v sshd_config](screenshots/task2_root_disabled.png)
+
+---
+
+Úkol 3 + 4 – Apache + PHP + Web
+- Apache nakonfigurován na portu 8081 
+- DocumentRoot nastaven na '/srv'  
+- PHP funkční  
+- Webová stránka dostupná na 'http://192.168.1.214:8081'  
+
+Screenshot: [Apache config /srv](screenshots/task3_apache_conf.png)  
+Screenshot: [Běžící webová stránka](screenshots/task4_webpage.png)
