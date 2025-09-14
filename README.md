@@ -5,6 +5,12 @@
 
 ---
 
+***Součástí repozitáře je:***
+- `README.md` – popis projektu, dokumentace
+- `screenshots/` – složka se screenshoty 
+
+---
+
 ***Zadání:***
 1. Vytvoření virtuálního stroje a nastavení privátní sítě.
 2. Vytvoření uživatele 'sysadmin', nastavení SSH s RSA klíči a zakázání root loginu.
