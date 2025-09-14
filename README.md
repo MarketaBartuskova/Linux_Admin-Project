@@ -17,8 +17,8 @@ Splněné úkoly:
 - Vytvořen virtuální stroj ve VirtualBoxu a instalace Ubuntu 
 - Síť nastavena na privátní IP (192.168.1.214)  
 
-Screenshot: [Screenshot VM + ping](screenshots/task1_vm_ping.png)
-
+Screenshot: [Běžící VM + ping](screenshots/vm_running_ping.png)  
+Screenshot: [IP adresa VM + ping na hosta](screenshots/vm_ipconfig_ping_host.png)
 ---
 
 Úkol 2 – SSH + uživatel sysadmin
