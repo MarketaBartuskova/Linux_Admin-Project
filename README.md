@@ -1,4 +1,4 @@
-# Projekt pro Linux administraci – Nastavení částečného LAMP stacku na vlastní VM
+# Projekt pro Linux administraci – Nastavení částečného LAMP stacku na vlastním VM
 
  Jedná se o závěrečný projekt, na jejímž základě mi byl udělen certifikát Junior Linux Administrator od ENGETO.
  Cílem bylo vytvořit a nakonfigurovat částečný LAMP stack na vlastním virtuálním stroji.
